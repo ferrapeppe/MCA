@@ -4,20 +4,20 @@
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
-          <!--I added the arranger,date,composer,respStmt, seriesStmt and notesStmt elements and sub-elements-->
+          <!--I added the arranger,date,composer,respStmt, seriesStmt and notesStmt elements and sub-elements.I also added @xml:id-->
             <titleStmt>
-                <title>Azalea Town</title>
-                <arranger>Thomas Wilson</arranger>
-                <date>1999</date>
-                <composer>Junichi Masuda</composer>
+                <title xml:id="title">Azalea Town</title>
+                <arranger xml:id="arranger">Thomas Wilson</arranger>
+                <date xml:id="date">1999</date>
+                <composer xml:id="composer">Junichi Masuda</composer>
                 <respStmt>
                   <resp>Encoded by</resp>
                   <resp>Giuseppe Ferraro</resp>
                 </respStmt>
             </titleStmt>
             <seriesStmt>
-              <title>Pokémon Gold and Silver Encoded Music Collection</title>
-              <editor>Giuseppe Ferraro</editor>
+              <title xml:id="series">Pokémon Gold and Silver Encoded Music Collection</title>
+              <editor xml:id="editor">Giuseppe Ferraro</editor>
             </seriesStmt>
             <pubStmt></pubStmt>
             <notesStmt>

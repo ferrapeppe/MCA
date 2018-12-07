@@ -41,6 +41,12 @@
           if (xhr.status === OK) {
             var parser = new DOMParser()
             var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
+            document.querySelector("#meta").innerHTML += "<p>" + "<b>" + "Title: " + "</b>" + meiDoc.querySelector("[*|id='title']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + "<b>" + "Composer: " + "</b>" + meiDoc.querySelector("[*|id='composer']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + "<b>" + "Date of Composition: " + "</b>" + meiDoc.querySelector("[*|id='date']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + "<b>" + "Arranger: " + "</b>" + meiDoc.querySelector("[*|id='arranger']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + "<b>" + "Series: " + "</b>" + meiDoc.querySelector("[*|id='series']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + "<b>" + "Editor: " + "</b>" + meiDoc.querySelector("[*|id='editor']").textContent + "</p>"
             /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
            */

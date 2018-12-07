@@ -5,18 +5,18 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Pokémon Center</title>
-                <arranger>Altissimo</arranger>
-                <date>1999</date>
-                <composer>Junichi Masuda</composer>
+                <title xml:id="title">Pokémon Center</title>
+                <arranger xml:id="arranger">Altissimo</arranger>
+                <date xml:id="date">1999</date>
+                <composer xml:id="composer">Junichi Masuda</composer>
                 <respStmt>
                   <resp>Encoded by</resp>
                   <resp>Giuseppe Ferraro</resp>
                 </respStmt>
             </titleStmt>
             <seriesStmt>
-              <title>Pokémon Gold and Silver Encoded Music Collection</title>
-              <editor>Giuseppe Ferraro</editor>
+              <title xml:id="series">Pokémon Gold and Silver Encoded Music Collection</title>
+              <editor xml:id="editor">Giuseppe Ferraro</editor>
             </seriesStmt>
             <pubStmt></pubStmt>
             <notesStmt>
