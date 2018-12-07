@@ -6,8 +6,22 @@
         <fileDesc>
             <titleStmt>
                 <title>A Rival Appears! (Version 2)</title>
+                <arranger>Altissimo</arranger>
+                <date>1999</date>
+                <composer>Junichi Masuda</composer>
+                <respStmt>
+                  <resp>Encoded by</resp>
+                  <resp>Giuseppe Ferraro</resp>
+                </respStmt>
             </titleStmt>
+            <seriesStmt>
+              <title>Pokémon Gold and Silver Encoded Music Collection</title>
+              <editor>Giuseppe Ferraro</editor>
+            </seriesStmt>
             <pubStmt></pubStmt>
+            <notesStmt>
+              <annot>This piece of music was conceived to be played by an 8-bit portable console.</annot>
+            </notesStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000000315806474">
             <appInfo xml:id="appinfo-0000001394470341">

@@ -6,8 +6,22 @@
         <fileDesc>
             <titleStmt>
                 <title>The Hall of Fame</title>
+                <arranger>JDMEK5</arranger>
+                <date>1999</date>
+                <composer>Junichi Masuda</composer>
+                <respStmt>
+                  <resp>Encoded by</resp>
+                  <resp>Giuseppe Ferraro</resp>
+                </respStmt>
             </titleStmt>
+            <seriesStmt>
+              <title>Pokémon Gold and Silver Encoded Music Collection</title>
+              <editor>Giuseppe Ferraro</editor>
+            </seriesStmt>
             <pubStmt></pubStmt>
+            <notesStmt>
+              <annot>This piece of music was conceived to be played by an 8-bit portable console.</annot>
+            </notesStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001258823667">
             <appInfo xml:id="appinfo-0000002006436395">
